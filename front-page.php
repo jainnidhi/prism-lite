@@ -268,7 +268,7 @@ get_header();
         
                         <div class="flex-caption">
                              <?php if ( get_theme_mod('tslider_one_description') !='' ) {  ?>
-                                <?php echo wpautop(esc_html(get_theme_mod('tslider_one_description'))); ?>
+                                <?php echo esc_html(get_theme_mod('tslider_one_description')); ?>
                                 <?php } else { ?>
                                <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
                                  <?php } ?>
@@ -283,27 +283,13 @@ get_header();
         
                         <div class="flex-caption">
                              <?php if ( get_theme_mod('tslider_two_description') !='' ) {  ?>
-                                <?php echo wpautop(esc_html(get_theme_mod('tslider_two_description'))); ?>
+                                <?php echo esc_html(get_theme_mod('tslider_two_description')); ?>
                                 <?php } else { ?>
                                <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
                                  <?php } ?>
                          </div>
                     </li>
                     
-                     <li id="tslider3">  <?php if ( get_theme_mod('tslider_three') !='' ) {  ?>
-                        <img  src="<?php echo get_theme_mod('tslider_three'); ?>" alt=""/>
-                        <?php }  else {  ?>
-                        <img  src="<?php echo get_template_directory_uri(); ?>/images/slider3.jpg" alt=""/>
-                        <?php } ?>
-        
-                        <div class="flex-caption">
-                             <?php if ( get_theme_mod('tslider_three_description') !='' ) {  ?>
-                                <?php echo wpautop(esc_html(get_theme_mod('tslider_three_description'))); ?>
-                                <?php } else { ?>
-                               <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
-                                 <?php } ?>
-                         </div>
-                    </li>
                </ul>
             </div>
         </div>

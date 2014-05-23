@@ -911,6 +911,7 @@ function prism_customize_register($wp_customize) {
     
         
         $wp_customize->add_setting('tslider_one_description', array('default' => '',
+            'sanitize_callback' => 'sanitize_text_field',
             'transport'=> 'postMessage',
             ));
         
@@ -939,6 +940,7 @@ function prism_customize_register($wp_customize) {
     );
     
         $wp_customize->add_setting('tslider_two_description', array('default' => '',
+            'sanitize_callback' => 'sanitize_text_field',
             'transport'=> 'postMessage',
             ));
         
