@@ -90,66 +90,7 @@
 			$( '#slider2 .flex-caption p' ).text( to );
 		} );
 	} );
-         wp.customize( 'slider_three', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider3 img' ).attr('src', to );
-		} );
-	} );
-         wp.customize( 'slider_title_three', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider3 .flex-caption h2 a' ).text( to );
-		} );
-	} );
-         wp.customize( 'slider_three_url', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider3 .flex-caption h2 a' ).attr('href', to );
-		} );
-	} );
-         wp.customize( 'slider_three_description', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider4 .flex-caption p' ).text( to );
-		} );
-	} );
-         wp.customize( 'slider_four', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider1 img' ).attr('src', to );
-		} );
-	} );
-         wp.customize( 'slider_title_four', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider4 .flex-caption h2 a' ).text( to );
-		} );
-	} );
-         wp.customize( 'slider_four_url', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider4 .flex-caption h2 a' ).attr('href', to );
-		} );
-	} );
-         wp.customize( 'slider_four_description', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider4 .flex-caption p' ).text( to );
-		} );
-	} );
-         wp.customize( 'slider_five', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider5 img' ).attr('src', to );
-		} );
-	} );
-         wp.customize( 'slider_title_five', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider5 .flex-caption h2 a' ).text( to );
-		} );
-	} );
-        wp.customize( 'slider_five_url', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider5 .flex-caption h2 a' ).attr('href', to );
-		} );
-	} );
-         wp.customize( 'slider_one_description', function( value ) {
-		value.bind( function( to ) {
-			$( '#slider5 .flex-caption p' ).text( to );
-		} );
-	} );
+        
         wp.customize( 'tagline_title', function( value ) {
 		value.bind( function( to ) {
 			$( '.business-tagline h3' ).text( to );
