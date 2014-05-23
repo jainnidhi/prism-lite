@@ -72,25 +72,6 @@ function prism_customize_register($wp_customize) {
         'priority' => 30,
     ));
 
-    // Add color scheme options
-   
-    $wp_customize->add_setting('prism_bg_color_scheme', array(
-        'default' => 'ligt',
-        'sanitize_callback' => 'prism_sanitize_bg_color_scheme_option',
-    ));
-
-    $wp_customize->add_control('prism_bg_color_scheme', array(
-        'label' => 'Background Color Schemes',
-        'section' => 'prism_theme_layout_settings',
-        'default' => 'light',
-        'type' => 'radio',
-        'choices' => array(
-            'light' => __('Light', 'prism'),
-            'dark' => __('Dark', 'prism'),
-           
-           
-        ),
-    ));
     
     // Add color scheme options
    

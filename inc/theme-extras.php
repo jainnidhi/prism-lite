@@ -336,12 +336,6 @@ function prism_body_classes($classes) {
         $classes[] = 'prism-' . $slug;
         
     }
-    
-    $bg_slug = get_theme_mod('prism_bg_color_scheme');
-    if (is_front_page()) {
-        $classes[] = $bg_slug . '-prism-front-page';
-    }
-    $classes[] = 'prism-bg-'.$bg_slug; 
         
     return $classes; 
     
