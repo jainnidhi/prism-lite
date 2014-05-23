@@ -320,21 +320,21 @@ get_header();
                                      <?php } ?>
 
                             <?php if ( get_theme_mod('address_detail') !='' ) {  ?>
-                            <p id="address"><i class="fa fa-location-arrow"></i><?php echo esc_html(get_theme_mod('address_detail')); ?></p>
+                            <p id="address"><?php echo esc_html(get_theme_mod('address_detail')); ?></p>
                                      <?php } else { ?>
-                                    <p id="address"><i class="fa fa-location-arrow"></i><?php esc_html_e('205, Gitanjali Mansion,
+                                    <p id="address"><?php esc_html_e('205, Gitanjali Mansion,
                                                           Above ICICI Bank, Sector 11
                                                           Udaipur, Rajasthan, India.', 'prism') ?> </p>
                                             <?php } ?>
 
-                               <?php if ( get_theme_mod('contact_email') !='' ) {  ?><p id="email"><i class="fa fa-envelope"></i><?php echo esc_html(get_theme_mod('contact_email')); ?>
+                               <?php if ( get_theme_mod('contact_email') !='' ) {  ?><p id="email"><?php echo esc_html(get_theme_mod('contact_email')); ?>
 
-                            <?php } else {  ?> <p id="email"><i class="fa fa-envelope"></i> <?php esc_html_e('hello@ideaboxcreations.com', 'prism') ?></p>
+                            <?php } else {  ?> <p id="email"><?php esc_html_e('hello@ideaboxcreations.com', 'prism') ?></p>
                                      <?php } ?>
 
-                            <?php if ( get_theme_mod('contact_phone') !='' ) {  ?><p id="phone"><i class="fa fa-phone"></i><?php echo esc_html(get_theme_mod('contact_phone')); ?>
+                            <?php if ( get_theme_mod('contact_phone') !='' ) {  ?><p id="phone"><?php echo esc_html(get_theme_mod('contact_phone')); ?>
 
-                            <?php } else {  ?> <p id="phone"><i class="fa fa-phone"></i> <?php esc_html_e('0294-678456', 'prism') ?></p>
+                            <?php } else {  ?> <p id="phone"><?php esc_html_e('0294-678456', 'prism') ?></p>
                                      <?php } ?>
                           
                     </div>

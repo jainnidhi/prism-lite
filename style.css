@@ -873,6 +873,27 @@ select {
     font-size:28px;
 }
 
+.contact-details #email:before{
+    font-family:"FontAwesome";
+    content:"\f0e0";
+    margin-right:10px;
+    color:#42a2ce;
+}
+
+.contact-details #phone:before{
+    font-family:"FontAwesome";
+    content:"\f095";
+    margin-right:10px;
+    color:#42a2ce;
+}
+
+.contact-details #address:before{
+    font-family:"FontAwesome";
+    content:"\f041";
+    margin-right:10px;
+    color:#42a2ce;
+}
+
 .home-contact-form{
     padding-right:30px;
 }
@@ -2715,7 +2736,10 @@ img#wpstats {
 .prism-red .header-meta a:hover,
 .prism-red .nav-previous a:hover,
 .prism-red .nav-next a:hover,
-.prism-red .contact-details .fa
+.prism-red .contact-details .fa,
+.prism-red .contact-details #address:before,
+.prism-red .contact-details #phone:before,
+.prism-red .contact-details #email:before
 {
     color:#e55252;
 }
@@ -2780,7 +2804,10 @@ img#wpstats {
 .prism-green .header-meta a:hover,
 .prism-green .nav-previous a:hover,
 .prism-green .nav-next a:hover,
-.prism-green .contact-details .fa
+.prism-green .contact-details .fa,
+.prism-green .contact-details #address:before,
+.prism-green .contact-details #phone:before,
+.prism-green .contact-details #email:before
 {
     color:#3bb59c;
 }
@@ -2847,7 +2874,10 @@ img#wpstats {
 .prism-purple .header-meta a:hover,
 .prism-purple .nav-previous a:hover,
 .prism-purple .nav-next a:hover,
-.prism-purple .contact-details .fa
+.prism-purple .contact-details .fa,
+.prism-purple .contact-details #address:before,
+.prism-purple .contact-details #phone:before,
+.prism-purple .contact-details #email:before
 {
     color:#a678d3;
 }
