@@ -104,7 +104,7 @@ function prism_scripts_styles() {
         }
         wp_enqueue_style( 'flexslider', trailingslashit( get_template_directory_uri() ) . 'assets/css/flexslider.css' , array(), '1.0', 'all' );
         
-	$fonts_url = 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather:300,400,700';
+	$fonts_url = 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400';
 	if ( !empty( $fonts_url ) ) {
 		wp_enqueue_style( 'prism-fonts', esc_url_raw( $fonts_url ), array(), null );
 	}
@@ -145,7 +145,7 @@ add_action( 'wp_enqueue_scripts', 'prism_scripts_styles' );
  * @return string The filtered CSS paths list.
  */
 function prism_mce_css( $mce_css ) {
-	$fonts_url = 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather:300,400,700';
+	$fonts_url = 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400';
 
 	if ( empty( $fonts_url ) ) {
 		return $mce_css;
