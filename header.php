@@ -52,7 +52,7 @@ global $edd_options;
                             <?php if (get_theme_mod('header_contact') != '') { ?>
                                 <p><i class="fa fa-phone"></i><?php echo esc_html(get_theme_mod('header_contact')); ?></p>
                             <?php } else { ?>
-                                <p><i class="fa fa-phone"></i><?php esc_html_e('Call us on  24x7: 800-555-0101', 'prism') ?> </p>
+                                <p><i class="fa fa-phone"></i><?php esc_html_e('Call us 24x7: 800-555-0101', 'prism') ?> </p>
                             <?php } ?>
                         </div>
                         <div class="col grid_6_of_12 social-icons-container last"> 

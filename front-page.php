@@ -30,16 +30,16 @@ get_header();
                 <li>
                 <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt=""/>
                 <div class="flex-caption">
-                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Showcase Your Restaurant Services', 'prism') ?></a></h2>
-                          <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
+                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Upgrade to Pro version!', 'prism') ?></a></h2>
+                          <p><?php esc_html_e('The pro version comes with much more exciting features including more slider images, testimonials and color schemes. A lot more there!', 'prism') ?> </p>
                  </div>
                 </li>
                 
                 <li>
                 <img  src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt=""/>
                 <div class="flex-caption">
-                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Showcase Your Restaurant Services', 'prism') ?></a></h2>
-                          <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
+                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Dedicated support & upgrades', 'prism') ?></a></h2>
+                          <p><?php esc_html_e('Pro version gives you access to dedicated support & feature rich upgrades.', 'prism') ?> </p>
                  </div>
                 </li>
                
@@ -91,15 +91,15 @@ get_header();
             <div class="business-tagline">
                 <?php if ( get_theme_mod('tagline_title') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('tagline_title')); ?></h3>
 
-                  <?php } else {  ?> <h3><?php esc_html_e('Build Restaurant Website With Prism Multipurpose Theme', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Premium WP Theme with 1-click installation and Live Customization.', 'prism') ?></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('tagline_description') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('tagline_description')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Creating your Restaurant & Food based website with Prism is completely easy.
-                              You just need to perform few tweaks in the theme option panel and your website will be ready to use.
-                              Showcase all important features of your website on homepage.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Setting up your WP website with a brand new theme was never so easy.
+                              With Prism, it takes only few clicks to load your content with Live Preview.
+                              Change color schemes, add social icons, personalize the theme.', 'prism') ?> </p>
                                            <?php } ?>
             </div>
         </div><!-- end business tagline area -->
@@ -123,13 +123,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_one') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_one')); ?></h3>
-                  <?php } else {  ?> <h3><?php esc_html_e('Our Products', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Responsive Design', 'prism') ?></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_one') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_one')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Showcase your best quality products on home page to grab visitor&rsquo;s attention.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Your site looks beautiful on all kind of devices and screen sizes. Mobile responsive navigation makes it easy to access the site on mobile devices.', 'prism') ?> </p>
                                            <?php } ?>
                           
                       <a class="read-more" href="<?php if ( get_theme_mod('home_one_link_url') !='' ) { echo esc_url(get_theme_mod('home_one_link_url')); } ?>">
@@ -148,13 +148,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_two') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_two')); ?></h3>
-                  <?php } else {  ?> <h3><?php esc_html_e('Our Services', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('1-Click Installation', 'prism') ?></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_two') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_two')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Show your multiple services that will explore your website among the audience.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Install, activate the theme and you are ready with a brand new website. It gets loaded with sample content that you can easily modify.', 'prism') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_two_link_url') !='' ) { echo esc_url(get_theme_mod('home_two_link_url')); } ?>">
@@ -174,13 +174,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_three') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_three')); ?></h3>
-                  <?php } else {  ?> <h3><?php esc_html_e('Our Clients', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Live Customization', 'prism') ?></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_three') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_three')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Show testimonials of your clients that will build the trust among the audience.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Live preview your site as you add the content to various sections. Theme customizer allows you the flexibility and ease of use.', 'prism') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_three_link_url') !='' ) { echo esc_url(get_theme_mod('home_three_link_url')); } ?>">
@@ -199,13 +199,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_four') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_four')); ?></h3>
-                  <?php } else {  ?> <h3><?php esc_html_e('Our Services', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Color Schemes', 'prism') ?></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_four') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_four')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Show testimonials of your clients that will build the trust among the audience.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Multiple color schemes are pre-packaged to fit all your requirements. Upgrade to pro version for more exciting features. ', 'prism') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_four_link_url') !='' ) { echo esc_url(get_theme_mod('home_four_link_url')); } ?>">
@@ -228,14 +228,14 @@ get_header();
                         <?php if ( get_theme_mod('cta_text') !='' ) {  ?>
                         <p><?php echo esc_html(get_theme_mod('cta_text')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('We have really amazing products that you would be amazed to see.', 'prism') ?> </p>
+                          <p><?php esc_html_e('Checkout the complete collection on our website.', 'prism') ?> </p>
                                            <?php } ?>
                     </div>
                     <div class="home-cta-two grid_4_of_12 col">
                         <a class="cta-button" href="<?php if ( get_theme_mod('home_cta_link_url') !='' ) { echo esc_url(get_theme_mod('home_cta_link_url')); } ?>">
                            <?php if ( get_theme_mod('home_cta_link_text') !='' ) {  ?><?php echo esc_html(get_theme_mod('home_cta_link_text')); ?>
 
-                    <?php } else {  ?> <?php esc_html_e('Read More', 'prism') ?>
+                    <?php } else {  ?> <?php esc_html_e('Buy Now', 'prism') ?>
                            <?php } ?></a>
                     </div>
                   </div>
@@ -245,7 +245,7 @@ get_header();
         <div class="client-feedback-area" id="feedback-title">
             <div class="client-feedback-title">
                  <?php if ( get_theme_mod('feedback_title') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('feedback_title')); ?></h3>
-                  <?php } else {  ?> <h3><?php esc_html_e('Our Clients Feedback', 'prism') ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Testimonials', 'prism') ?></h3>
                            <?php } ?>
             </div>
         </div>
@@ -263,7 +263,7 @@ get_header();
                              <?php if ( get_theme_mod('tslider_one_description') !='' ) {  ?>
                                 <?php echo esc_html(get_theme_mod('tslider_one_description')); ?>
                                 <?php } else { ?>
-                               <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
+                               <p><?php esc_html_e('IdeaBox Themes are super easy to setup and use. I love them. - John Doe.', 'prism') ?> </p>
                                  <?php } ?>
                          </div>
                     </li>
@@ -278,7 +278,7 @@ get_header();
                              <?php if ( get_theme_mod('tslider_two_description') !='' ) {  ?>
                                 <?php echo esc_html(get_theme_mod('tslider_two_description')); ?>
                                 <?php } else { ?>
-                               <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
+                               <p><?php esc_html_e('I have used IdeaBox Themes several times. They are the best! - Jena Doe', 'prism') ?> </p>
                                  <?php } ?>
                          </div>
                     </li>
