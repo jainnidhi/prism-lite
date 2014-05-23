@@ -990,7 +990,7 @@ select {
     top: 20%; 
 }
 
-#main-slider .flexslider .slider-text-container {
+#main-slider .slider-text-container {
     width: 90%;
     max-width: 1000px; 
     margin: 0 auto; 
