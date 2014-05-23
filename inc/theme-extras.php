@@ -423,9 +423,9 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_d
 
 function prism_admin_notice(){
     global $pagenow;
-    if ( $pagenow == 'customize.php' ) { ?>
+    if ( $pagenow == 'themes.php' ) { ?>
           <div class="updated">
-              <p>This theme comes with <a href="<?echo admin_url('customize.php'); ?>">Live Theme Customizer</a> to configure settings and setup home page content. <br/> You can upgrade to <a href="http://ideaboxthemes.com/themes/prism-one-page-wordpress-theme/">Pro version</a> for more features</p>
+              <p>This theme comes with <a href="<?echo admin_url('customize.php'); ?>">Live Theme Customizer</a> to configure settings and setup home page content. <br/> You can upgrade to <a href="http://ideaboxthemes.com/themes/prism-one-page-wordpress-theme/">Pro version</a> for more features like multiple slider images, testimonials, color schemes, support and upgrades.</p>
          </div>
    <?php  }
 }
