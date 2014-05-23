@@ -949,34 +949,6 @@ function prism_customize_register($wp_customize) {
             'priority' => 4,
         )));
         
-         $wp_customize->add_setting('tslider_three', array(
-             'transport'=> 'postMessage',
-         ));
-        
-        $wp_customize->add_control(
-            new WP_Customize_Image_Control(
-            $wp_customize, 'tslider_three', array(
-        'label' => 'Slider 3',
-        'section' => 'testimonial_slider_setting',
-        'settings' => 'tslider_three',
-                 'priority' => 5,
-     
-                )
-            )
-    );
-    
-        $wp_customize->add_setting('tslider_three_description', array('default' => '',
-            'transport'=> 'postMessage',
-            ));
-        
-        $wp_customize->add_control(new prism_customize_textarea_control($wp_customize, 'tslider_three_description', array(
-            'label' => __('Description', 'prism'),
-            'section' => 'testimonial_slider_setting',
-            'settings' => 'tslider_three_description',
-            'priority' => 6,
-        )));
-        
-        
         
             // Add new section for Contact settings
     $wp_customize->add_section('contact_setting', array(

@@ -286,16 +286,7 @@
 			$( '#reviewslider #tslider2 .flex-caption p' ).text( to );
 		} );
 	} );
-         wp.customize( 'tslider_three', function( value ) {
-		value.bind( function( to ) {
-			$( '#tslider3 img' ).attr('src', to );
-		} );
-	} );
-         wp.customize( 'tslider_three_description', function( value ) {
-		value.bind( function( to ) {
-			$( '#reviewslider #tslider3 .flex-caption p' ).text( to );
-		} );
-	} );
+        
          wp.customize( 'home_menu_contact_title', function( value ) {
 		value.bind( function( to ) {
 			$( '.home-navigation #m5 a' ).text( to );
