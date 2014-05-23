@@ -1049,6 +1049,7 @@ function prism_customize_register($wp_customize) {
           // Add new section for Home Tagline settings
     $wp_customize->add_section('prism_contact_form_setting', array(
         'title' => __('Contact Form', 'prism'),
+        'description' => __('You can add shortcode for contact form.', 'prism'),
         'priority' => 64,
     ));    
        
@@ -1058,7 +1059,7 @@ function prism_customize_register($wp_customize) {
             ));
         
         $wp_customize->add_control('prism_contact_form', array(
-            'label' => __('Contact Form', 'prism'),
+            'label' => __('Contact Form Short Code', 'prism'),
             'section' => 'prism_contact_form_setting',
             'settings' => 'prism_contact_form',
             'priority' => 2,
