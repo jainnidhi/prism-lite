@@ -1911,6 +1911,15 @@ div.gform_wrapper .ginput_complex label {
 .footer-extras{
     width:50%;
     float:right;
+    text-align:right;
+}
+
+.footer-extras p{
+    margin:20px 0;
+}
+
+.footer-extras a{
+    color:#fff;
 }
 .footer-wrap .social-links{
     float:right;
