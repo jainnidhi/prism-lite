@@ -91,7 +91,7 @@ body {
     font-style: normal;
     font-weight: 300;
     color: #333;
-    background: #eee url('assets/images/cream_pixels.png') transparent repeat;
+    background: url('assets/images/cream_pixels.png') repeat;
 }
 
 .admin-bar #headercontainer{
