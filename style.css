@@ -994,14 +994,9 @@ select {
     width: 90%;
     max-width: 1000px; 
     margin: 0 auto; 
-}
-
-.flexslider .slides{
-    background:#333;
-}
-
-.flexslider .slides img{
-    opacity:0.5;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 20px; 
 }
 
 .flex-caption p{
