@@ -1093,6 +1093,7 @@ function prism_customize_register($wp_customize) {
 
     $wp_customize->add_setting('prism_footer_footer_text', array(
         'default' => null,
+        'sanitize_callback' => 'sanitize_text_field',
         'sanitize_js_callback' => 'prism_sanitize_escaping',
         'transport'=> 'postMessage',
         

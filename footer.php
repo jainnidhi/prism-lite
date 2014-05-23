@@ -56,7 +56,7 @@
                 </p>
             </div>
         <?php } else { ?>   
-                    <div class="smallprint"><?php echo wpautop(esc_html(get_theme_mod('prism_footer_footer_text'))); ?></div>
+                    <div class="smallprint"><?php echo esc_html(get_theme_mod('prism_footer_footer_text')); ?></div>
         <?php } ?> 
                     <div class="footer-extras">
                          <div class="social-links">
