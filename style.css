@@ -977,17 +977,23 @@ select {
 }
 .slider-wrapper .flex-caption{
     padding: 10px;
-    margin-bottom: 20%;
+    margin-bottom: 0;
     position: absolute;
-    right: 25px;
-    bottom: 15px;
+    right: auto;
     color: #fafafa;
     font-size: 13px;
     line-height: 18px;
     width: 306px;
     height: auto;
     border-radius: 10px;
-    width:80%;
+    width:100%;
+    top: 20%; 
+}
+
+#main-slider .flexslider .slider-text-container {
+    width: 90%;
+    max-width: 1000px; 
+    margin: 0 auto; 
 }
 
 .flexslider .slides{
@@ -3324,6 +3330,9 @@ img#wpstats {
         text-align: center;
     }
 
+    #main-slider .flex-caption { 
+        display: none; 
+    }
 
     .full-width #featured-posts-container{
         width:100%;

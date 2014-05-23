@@ -30,17 +30,21 @@ get_header();
                 <li>
                 <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt=""/>
                 <div class="flex-caption">
+                    <div class="slider-text-container">
                      <h2 class="slider-title"><a href="#"><?php esc_html_e('Upgrade to Pro version!', 'prism') ?></a></h2>
                           <p><?php esc_html_e('The pro version comes with much more exciting features including more slider images, testimonials and color schemes. A lot more there!', 'prism') ?> </p>
-                 </div>
+                    </div>
+                    </div>
                 </li>
                 
                 <li>
                 <img  src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt=""/>
                 <div class="flex-caption">
+                    <div class="slider-text-container">
                      <h2 class="slider-title"><a href="#"><?php esc_html_e('Dedicated support & upgrades', 'prism') ?></a></h2>
                           <p><?php esc_html_e('Pro version gives you access to dedicated support & feature rich upgrades.', 'prism') ?> </p>
-                 </div>
+                     </div>
+                </div>
                 </li>
                
             <?php } ?>
@@ -52,6 +56,7 @@ get_header();
                     <li id="slider1" class="home-slider"> 
                         <img href="<?php if ( get_theme_mod('slider_one_url') !='' ) { echo esc_url(get_theme_mod('slider_one_url')); } ?>" src="<?php echo get_theme_mod('slider_one'); ?>" alt=""/>
                         <div class="flex-caption">
+                            <div class="slider-text-container">
                              <?php if ( get_theme_mod('slider_title_one') !='' ) {  ?>
 
                             <h2 class="slider-title"><a href="<?php if ( get_theme_mod('slider_one_url') !='' ) { echo esc_url(get_theme_mod('slider_one_url')); } ?>"><?php echo esc_html(get_theme_mod('slider_title_one')); ?></a></h2>
@@ -59,6 +64,7 @@ get_header();
                                     <?php if ( get_theme_mod('slider_one_description') !='' ) {  ?>
                                      <p><?php echo esc_html(get_theme_mod('slider_one_description')); ?></p>
                                    <?php } ?>
+                             </div>
                          </div>
                     </li>
                     
@@ -69,6 +75,7 @@ get_header();
                         <img href="<?php if ( get_theme_mod('slider_two_url') !='' ) { echo esc_url(get_theme_mod('slider_two_url')); } ?>" src="<?php echo get_theme_mod('slider_two'); ?>" alt=""/>
                         <?php } ?>
                         <div class="flex-caption">
+                            <div class="slider-text-container">
                              <?php if ( get_theme_mod('slider_title_two') !='' ) {  ?>
 
                             <h2 class="slider-title"><a href="<?php if ( get_theme_mod('slider_two_url') !='' ) { echo esc_url(get_theme_mod('slider_two_url')); } ?>"><?php echo esc_html(get_theme_mod('slider_title_two')); ?></a></h2>
@@ -76,7 +83,7 @@ get_header();
 
                                 <?php if ( get_theme_mod('slider_two_description') !='' ) {  ?>
                                 <p><?php echo esc_html(get_theme_mod('slider_two_description')); ?></p>
-                             
+                            </div>
                          </div>
                     </li>
                      <?php } ?>
