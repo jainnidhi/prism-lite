@@ -8,18 +8,6 @@
 
 require( get_template_directory() . '/inc/customizer.php' ); // new customizer options
 
-
-if (!class_exists('prism_SL_Theme_Updater')) {
-    // Load our custom theme updater
-    include( dirname(__FILE__) . '/inc/theme-updater.php' );
-}
-
-// configuration file for theme licensing 
-// theme updater and licensing
-
-include(get_stylesheet_directory() . '/inc/theme-updater-config.php');
-
-
 /**
  * Set the content width based on the theme's design and stylesheet.
  *
