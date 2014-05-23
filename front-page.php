@@ -42,14 +42,7 @@ get_header();
                           <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
                  </div>
                 </li>
-                
-                <li>
-                <img  src="<?php echo get_template_directory_uri(); ?>/images/slider3.jpg" alt=""/>
-                <div class="flex-caption">
-                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Showcase Your Restaurant Services', 'prism') ?></a></h2>
-                          <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
-                 </div>
-                </li>
+               
             <?php } ?>
                 
           <?php 
