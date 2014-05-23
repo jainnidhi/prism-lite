@@ -11,7 +11,6 @@
 // Start a new query for displaying featured posts on Front Page
 
 if (get_theme_mod('prism_front_featured_posts_check')) {
-    $featured_count = intval(get_theme_mod('prism_front_featured_posts_count'));
     $var = get_theme_mod('prism_front_featured_posts_cat');
 
     // if no category is selected then return 0 
@@ -19,7 +18,7 @@ if (get_theme_mod('prism_front_featured_posts_check')) {
 
     $featured_post_args = array(
         'post_type' => 'post',
-        'posts_per_page' => $featured_count,
+        'posts_per_page' => 3,
         'cat' => $featured_cat_id,
         'post__not_in' => get_option('sticky_posts'),
     );
