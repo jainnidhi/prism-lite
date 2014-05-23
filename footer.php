@@ -50,9 +50,7 @@
         <?php if (get_theme_mod('prism_footer_footer_text') == '') { ?>
             <div class="smallprint">
                 <p>
-                    <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>">
-                        <?php _e('Prism WordPress theme by IdeaBox', 'prism'); ?>
-                    </a>
+                    <?php esc_html_e('&copy; Copyright &middot; ','prism'); ?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
                 </p>
             </div>
         <?php } else { ?>   

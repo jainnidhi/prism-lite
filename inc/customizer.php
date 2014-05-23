@@ -83,7 +83,7 @@ function prism_customize_register($wp_customize) {
     $wp_customize->add_control('prism_color_scheme', array(
         'label' => 'Color Schemes',
         'section' => 'prism_theme_layout_settings',
-        'default' => 'red',
+        'default' => 'blue',
         'type' => 'radio',
         'choices' => array(
             'blue' => __('Blue', 'prism'),
@@ -1041,6 +1041,19 @@ function prism_customize_register($wp_customize) {
         'description' => __('You can add shortcode for contact form.', 'prism'),
         'priority' => 64,
     ));    
+    
+    $wp_customize->add_setting('contact_form_title', array(
+            'sanitize_callback' => 'sanitize_text_field',
+            'transport'=> 'postMessage',
+            ));
+        
+        $wp_customize->add_control('contact_form_title', array(
+            'label' => __('Title', 'prism'),
+            'section' => 'prism_contact_form_setting',
+            'settings' => 'contact_form_title',
+            'priority' => 1,
+           
+        ));
        
     $wp_customize->add_setting('prism_contact_form', array(
             'sanitize_callback' => 'sanitize_text_field',
@@ -1191,26 +1204,13 @@ function prism_sanitize_checkbox( $input ) {
  * @since Prism 1.0
  */
 function prism_sanitize_color_scheme_option($colorscheme_option){
-    if ( ! in_array( $colorscheme_option, array( 'blue','red','green','gray','purple','orange','brown','pink' ) ) ) {
+    if ( ! in_array( $colorscheme_option, array( 'blue','red','green','purple') ) ) {
 		$colorscheme_option = 'blue';
 	}
 
 	return $colorscheme_option;
 }
 
-
-/*
- * Sanitize background color scheme options 
- * 
- * @since Prism 1.0
- */
-function prism_sanitize_bg_color_scheme_option($bg_colorscheme_option){
-    if ( ! in_array( $bg_colorscheme_option, array( 'light','dark') ) ) {
-		$bg_colorscheme_option = 'light';
-	}
-
-	return $bg_colorscheme_option;
-}
 
 /**
  * Bind JS handlers to make Theme Customizer preview reload changes asynchronously.

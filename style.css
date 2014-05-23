@@ -2876,12 +2876,12 @@ img#wpstats {
     #featured-posts-container,
     #reviewslider,
     .contact-detail-wrap{
-        padding:80px 30px;
+        padding:70px 30px;
     }
 
     .home-cta,
     .business-tagline-area .business-tagline{
-        padding:60px 30px;
+        padding:40px 30px;
     }
 
     #reviewslider .flex-caption{
@@ -2961,7 +2961,7 @@ img#wpstats {
 }
 
 @media only screen and (max-width: 800px) {
-    
+
     .header-title,
     .header-extras{
         width:100%;
@@ -3044,16 +3044,24 @@ img#wpstats {
     .main-navigation li ul li a {
         width: 100%;
     }
-    
+
     .home-featured-post{
+        width: 350px;
+        float: none;
+        margin: 0 auto 20px !important;
+        display: block;
+    }
+
+    .home-featured .home-featured-one, 
+    .home-featured .home-featured-two, 
+    .home-featured .home-featured-three, 
+    .home-featured .home-featured-four{
         width:49%;
     }
 
-    .home-featured-post:nth-of-type(2n+1){
-        margin-left:0 !important;
-    }
-    .home-featured-post:nth-of-type(3n+1){
-        margin-left:1.6%;
+    .home-featured .home-featured-one,
+    .home-featured .home-featured-three{
+        margin-left:0;
     }
 }
 
@@ -3230,6 +3238,15 @@ img#wpstats {
         display:none;
     }
 
+    .home-featured .home-featured-one, 
+    .home-featured .home-featured-two, 
+    .home-featured .home-featured-three, 
+    .home-featured .home-featured-four{
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 

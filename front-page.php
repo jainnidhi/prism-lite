@@ -131,7 +131,7 @@ get_header();
                            <?php } else { ?>
                           <p><?php esc_html_e('Showcase your best quality products on home page to grab visitor&rsquo;s attention.', 'prism') ?> </p>
                                            <?php } ?>
-
+                          
                       <a class="read-more" href="<?php if ( get_theme_mod('home_one_link_url') !='' ) { echo esc_url(get_theme_mod('home_one_link_url')); } ?>">
                            <?php if ( get_theme_mod('home_one_link_text') !='' ) {  ?><?php echo esc_html(get_theme_mod('home_one_link_text')); ?>
 
@@ -300,13 +300,13 @@ get_header();
         <div class="contact-detail-area">
             <div class="contact-detail-wrap">
                 <div class="home-contact-form grid_6_of_12 col">
+                     <?php if ( get_theme_mod('contact_form_title') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('contact_form_title')); ?></h3>
+                  <?php } else {  ?> <h3><?php esc_html_e('Contact', 'prism') ?></h3>
+                           <?php } ?>
                    <?php if ( get_theme_mod('prism_contact_form') !='' ) {  ?> 
                     <?php echo do_shortcode(get_theme_mod('prism_contact_form')); ?>
                    <?php } else { ?>
                    <?php 
-                   echo '<h3>';
-                   echo esc_html_e('Contact Form','prism');
-                   echo '</h3>';
                    echo esc_html_e('You can add a contact form here using your favorite plugin. Simply add the shortcode for the form from Theme Customizer and it will be displayed here.', 'prism'); ?> 
                      <?php } ?>
                 </div>

@@ -297,7 +297,11 @@
 			$( '.home-contact-title h3' ).text( to );
 		} );
             } );
-                
+         wp.customize( 'contact_form_title', function( value ) {
+		value.bind( function( to ) {
+			$( '.home-contact-form h3' ).text( to );
+		} );
+	} );    
          wp.customize( 'prism_contact_form', function( value ) {
 		value.bind( function( to ) {
 			$( '.home-contact-form' ).text( to );
@@ -306,7 +310,7 @@
         
         wp.customize( 'contact_title', function( value ) {
 		value.bind( function( to ) {
-			$( '.contact-detail-wrap h3' ).text( to );
+			$( '.contact-detail-wrap .contact-details h3' ).text( to );
 		} );
 	} );
         
