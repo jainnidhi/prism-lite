@@ -89,11 +89,7 @@ function prism_customize_register($wp_customize) {
             'blue' => __('Blue', 'prism'),
             'red' => __('Red', 'prism'),
             'green' => __('Green', 'prism'),
-            'gray' => __('Gray', 'prism'),
             'purple' => __('Purple', 'prism'),
-            'orange' => __('Orange', 'prism'),
-            'brown' => __('Brown', 'prism'),
-            'pink' => __('Pink', 'prism'),
         ),
     ));
     
