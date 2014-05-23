@@ -419,3 +419,14 @@ woocommerce_related_products(4,4); // Display 4 products in rows of 3
 
 //Remove the upsell display so that woo doesn't show upsell items on the single page and we can use our combo display
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
+
+
+function prism_admin_notice(){
+    global $pagenow;
+    if ( $pagenow == 'customize.php' ) { ?>
+          <div class="updated">
+              <p>This theme comes with <a href="<?echo admin_url('customize.php'); ?>">Live Theme Customizer</a> to configure settings and setup home page content. <br/> You can upgrade to <a href="http://ideaboxthemes.com/themes/prism-one-page-wordpress-theme/">Pro version</a> for more features</p>
+         </div>
+   <?php  }
+}
+add_action('admin_notices', 'prism_admin_notice');
