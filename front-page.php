@@ -263,7 +263,7 @@ get_header();
                     <li id="tslider1">  <?php if ( get_theme_mod('tslider_one') !='' ) {  ?>
                         <img  src="<?php echo get_theme_mod('tslider_one'); ?>" alt=""/>
                         <?php }  else {  ?>
-                        <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt=""/>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt=""/>
                         <?php } ?>
         
                         <div class="flex-caption">
@@ -278,7 +278,7 @@ get_header();
                     <li id="tslider2">  <?php if ( get_theme_mod('tslider_two') !='' ) {  ?>
                         <img  src="<?php echo get_theme_mod('tslider_two'); ?>" alt=""/>
                         <?php }  else {  ?>
-                        <img  src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt=""/>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.jpg" alt=""/>
                         <?php } ?>
         
                         <div class="flex-caption">
