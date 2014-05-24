@@ -351,7 +351,7 @@ get_header();
                         <?php if ( get_theme_mod('contact_map') !='' ) {  ?> 
                             <?php echo esc_html(get_theme_mod('contact_map')); ?>
                                <?php } else { ?>
-                                <?php echo '<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=golf+club+near+West+Valley+Freeway,+San+Jose,+CA,+United+States&amp;aq=1&amp;oq=goSilicon+Valley+Boulevard,+San+Jose,+CA,+United+States&amp;sll=37.293271,-121.833927&amp;sspn=0.184362,0.41851&amp;ie=UTF8&amp;hq=golf+club&amp;hnear=W+Valley+Fwy,+San+Jose,+Santa+Clara,+California,+United+States&amp;t=m&amp;fll=37.254551,-121.968627&amp;fspn=0.025995,0.059953&amp;st=103241701817924407489&amp;rq=1&amp;ev=zo&amp;split=1&amp;ll=37.293174,-121.833916&amp;spn=0.023057,0.052314&amp;output=embed"></iframe>' ?>
+                                <img src="<?php echo get_template_directory_uri().'/assets/images/map.jpg'; ?>" alt="home-map-image"/>
                                  <?php } ?>
                        
                     </div>
