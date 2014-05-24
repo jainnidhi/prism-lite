@@ -117,6 +117,13 @@ Prism utilises the following awesomeness:
 [SMINT] (http://www.outyear.co.uk/smint/), for one page navigation, licensed under MIT Creative Commons License http://opensource.org/licenses/mit-license.php
 [Slicknav] (https://github.com/ComputerWolf/SlickNav) , mobile responsive navigation, licensed under MIT License
 
+Feature Image 1: img1.jpg (http://pixabay.com/en/beach-beverage-caribbean-cocktail-84533/)
+Feature Image 2: img2.jpg (http://pixabay.com/en/keyboard-apple-input-keys-hardware-338513/)
+Feature Image 3: img3.jpg (http://pixabay.com/en/fall-autumn-tree-leaves-348316/)
+Feature Image 4: img4.jpg (http://pixabay.com/en/hot-air-balloon-balloon-colorful-4761/)
+
+Slider Image 1: slider1.jpg (http://unsplash.com/post/51495156548/download-by-alejandro-escamilla)
+Slider Image 2: slider2.jpg (http://unsplash.com/post/85385371509/download-by-drew-patrick-miller)
 
 = 1.0 =
 - Initial version
