@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Prism is a beautiful, easy to use, mobile responsive, one page, multipurpose theme. You can either use it as a one page theme or a standard theme. It comes with unique one click installation and live cusotmization features which makes it easy to use and setup for all kind of users. Multiple color schemes and beautiful typography make it a perfect fit for all kind of websites. 
+Prism is a beautiful, easy to use, mobile responsive, one page, multipurpose theme. You can either use it as a one page theme or a standard theme. It comes with unique one click installation and live customization features which makes it easy to use and setup for all kind of users. Multiple color schemes and beautiful typography make it a perfect fit for all kind of websites. And lastly, it has complete support for WooCommerce. 
 
 
 == Description ==
@@ -18,6 +18,7 @@ You can either use it as a one page theme or a standard theme.
 It comes with unique one click installation and live cusotmization features which makes it easy to use and setup for all kind of users. 
 Multiple color schemes and beautiful typography will make it a perfect fit for all kind of websites. 
 Built in social media icons and top header contact details are good for online presence and providing quick contact access to visitors. 
+Support for WooCommerce makes provides seamless integration and functionality with the powerful e-commerce plugin. 
 
 The main navigation uses the standard WordPress menu. Support for dropdown menus is inluded by default. 
 
