@@ -1,0 +1,647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prism - One Page Theme\n"
+"POT-Creation-Date: 2014-05-25 17:00+0530\n"
+"PO-Revision-Date: 2014-05-25 17:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Uh Oh! This is somewhat embarrassing!"
+msgstr ""
+
+#: 404.php:23 no-results.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: author-bio.php:15
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: author-bio.php:33
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:28
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "One response on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:16 content-audio.php:24 content-chat.php:16
+#: content-gallery.php:23 content-image.php:16 content-link.php:16
+#: content-quote.php:17 content-status.php:16 content-video.php:23
+#: content.php:36 functions.php:271
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:21 content-audio.php:29 content-chat.php:21
+#: content-gallery.php:28 content-image.php:21 content-link.php:21
+#: content-postarchives.php:33 content-quote.php:24 content-status.php:20
+#: content-video.php:28 content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content-aside.php:33 content-audio.php:42 content-chat.php:33
+#: content-gallery.php:40 content-image.php:33 content-link.php:33
+#: content-postarchives.php:36 content-quote.php:36 content-status.php:32
+#: content-video.php:40 content.php:53 inc/theme-extras.php:154
+msgid "Edit"
+msgstr ""
+
+#: content-audio.php:17 content-gallery.php:17 content-video.php:17
+#: content.php:18 content.php:23
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-frontposts.php:31 header.php:115
+msgid "Recent Blogs"
+msgstr ""
+
+#: content-frontposts.php:73
+msgid "Not Found"
+msgstr ""
+
+#: content-frontposts.php:74
+msgid "Sorry, but you are looking for something that is not here"
+msgstr ""
+
+#: content-postarchives.php:19
+msgid "Archives by Category"
+msgstr ""
+
+#: content-postarchives.php:28
+msgid "Archives by Month"
+msgstr ""
+
+#: footer.php:53
+msgid "&copy; Copyright &middot; "
+msgstr ""
+
+#: footer.php:62
+msgid "Prism WordPress theme by IdeaBox"
+msgstr ""
+
+#: front-page.php:34
+msgid "Upgrade to Pro version!"
+msgstr ""
+
+#: front-page.php:35
+msgid ""
+"The pro version comes with much more exciting features including more slider "
+"images, testimonials and color schemes. A lot more there!"
+msgstr ""
+
+#: front-page.php:44
+msgid "Dedicated support & upgrades"
+msgstr ""
+
+#: front-page.php:45
+msgid ""
+"Pro version gives you access to dedicated support & feature rich upgrades."
+msgstr ""
+
+#: front-page.php:101
+msgid "Premium WP Theme with 1-click installation and Live Customization."
+msgstr ""
+
+#: front-page.php:107
+msgid ""
+"Setting up your WP website with a brand new theme was never so easy.\n"
+"                              With Prism, it takes only few clicks to load "
+"your content with Live Preview.\n"
+"                              Change color schemes, add social icons, "
+"personalize the theme."
+msgstr ""
+
+#: front-page.php:118 header.php:112
+msgid "Theme Features"
+msgstr ""
+
+#: front-page.php:133
+msgid "Responsive Design"
+msgstr ""
+
+#: front-page.php:139
+msgid ""
+"Your site looks beautiful on all kind of devices and screen sizes. Mobile "
+"responsive navigation makes it easy to access the site on mobile devices."
+msgstr ""
+
+#: front-page.php:145 front-page.php:170 front-page.php:196 front-page.php:221
+msgid "Read More"
+msgstr ""
+
+#: front-page.php:158
+msgid "1-Click Installation"
+msgstr ""
+
+#: front-page.php:164
+msgid ""
+"Install, activate the theme and you are ready with a brand new website. It "
+"gets loaded with sample content that you can easily modify."
+msgstr ""
+
+#: front-page.php:184
+msgid "Live Customization"
+msgstr ""
+
+#: front-page.php:190
+msgid ""
+"Live preview your site as you add the content to various sections. Theme "
+"customizer allows you the flexibility and ease of use."
+msgstr ""
+
+#: front-page.php:209
+msgid "Color Schemes"
+msgstr ""
+
+#: front-page.php:215
+msgid ""
+"Multiple color schemes are pre-packaged to fit all your requirements. "
+"Upgrade to pro version for more exciting features. "
+msgstr ""
+
+#: front-page.php:238
+msgid "Checkout the complete collection on our website."
+msgstr ""
+
+#: front-page.php:245
+msgid "Buy Now"
+msgstr ""
+
+#: front-page.php:255
+msgid "Testimonials"
+msgstr ""
+
+#: front-page.php:273
+msgid ""
+"IdeaBox Themes are super easy to setup and use. I love them. - John Doe."
+msgstr ""
+
+#: front-page.php:288
+msgid "I have used IdeaBox Themes several times. They are the best! - Jena Doe"
+msgstr ""
+
+#: front-page.php:301 front-page.php:311 front-page.php:326 header.php:122
+msgid "Contact"
+msgstr ""
+
+#: front-page.php:317
+msgid ""
+"You can add a contact form here using your favorite plugin. Simply add the "
+"shortcode for the form from Theme Customizer and it will be displayed here."
+msgstr ""
+
+#: front-page.php:332
+msgid ""
+"205, Gitanjali Mansion,\n"
+"                                                          Above ICICI Bank, "
+"Sector 11\n"
+"                                                          Udaipur, "
+"Rajasthan, India."
+msgstr ""
+
+#: front-page.php:339
+msgid "hello@ideaboxcreations.com"
+msgstr ""
+
+#: front-page.php:344
+msgid "0294-678456"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:174
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:176
+msgid ""
+"Appears in the sidebar on posts and pages except the optional Front Page "
+"template, which has its own widgets"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer #1"
+msgstr ""
+
+#: functions.php:186 functions.php:196 functions.php:206 functions.php:216
+msgid "Appears in the footer sidebar"
+msgstr ""
+
+#: functions.php:194
+msgid "Footer #2"
+msgstr ""
+
+#: functions.php:204
+msgid "Footer #3"
+msgstr ""
+
+#: functions.php:214
+msgid "Footer #4"
+msgstr ""
+
+#: functions.php:271
+msgid "Continue reading"
+msgstr ""
+
+#: header.php:48
+msgid "Skip to main content"
+msgstr ""
+
+#: header.php:55
+msgid "Call us 24x7: 800-555-0101"
+msgstr ""
+
+#: header.php:118
+msgid "Client Feedbacks"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Select"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Green"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Purple"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/customizer.php:120 inc/customizer.php:130
+msgid "Tracking Code"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Header Contact"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Contact Detail"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Github URL"
+msgstr ""
+
+#: inc/customizer.php:239
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Home Slider"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Slider One Title"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Slider One URL"
+msgstr ""
+
+#: inc/customizer.php:301 inc/customizer.php:356 inc/customizer.php:389
+#: inc/customizer.php:472 inc/customizer.php:548 inc/customizer.php:626
+#: inc/customizer.php:703 inc/customizer.php:908 inc/customizer.php:937
+msgid "Description"
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Slider Two Title"
+msgstr ""
+
+#: inc/customizer.php:343
+msgid "Slider Two URL"
+msgstr ""
+
+#: inc/customizer.php:365
+msgid "Home Tagline"
+msgstr ""
+
+#: inc/customizer.php:377
+msgid "Tagline"
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Home Featured Title"
+msgstr ""
+
+#: inc/customizer.php:409 inc/customizer.php:753 inc/customizer.php:857
+#: inc/customizer.php:1016
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:423 inc/customizer.php:767 inc/customizer.php:871
+#: inc/customizer.php:1030
+msgid "Menu Title"
+msgstr ""
+
+#: inc/customizer.php:432
+msgid "Home Featured #1"
+msgstr ""
+
+#: inc/customizer.php:459 inc/customizer.php:535 inc/customizer.php:613
+#: inc/customizer.php:690 inc/customizer.php:958 inc/customizer.php:1051
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:485 inc/customizer.php:561 inc/customizer.php:639
+#: inc/customizer.php:716 inc/customizer.php:823
+msgid "Link Text"
+msgstr ""
+
+#: inc/customizer.php:499 inc/customizer.php:575 inc/customizer.php:653
+#: inc/customizer.php:730 inc/customizer.php:837
+msgid "Link URL"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Home Featured #2"
+msgstr ""
+
+#: inc/customizer.php:586
+msgid "Home Featured #3"
+msgstr ""
+
+#: inc/customizer.php:663
+msgid "Home Featured #4"
+msgstr ""
+
+#: inc/customizer.php:742
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/customizer.php:743
+msgid "Settings for displaying featured posts on Front Page"
+msgstr ""
+
+#: inc/customizer.php:779
+msgid "Show featured posts on Front Page"
+msgstr ""
+
+#: inc/customizer.php:789
+msgid "Post Category"
+msgstr ""
+
+#: inc/customizer.php:799
+msgid "Home CTA"
+msgstr ""
+
+#: inc/customizer.php:809
+msgid "CTA Text"
+msgstr ""
+
+#: inc/customizer.php:846
+msgid "Testimonial Title"
+msgstr ""
+
+#: inc/customizer.php:881
+msgid "Testimonial Slider"
+msgstr ""
+
+#: inc/customizer.php:946
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:971
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:984
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer.php:997
+msgid "Address"
+msgstr ""
+
+#: inc/customizer.php:1005
+msgid "Home Contact Title"
+msgstr ""
+
+#: inc/customizer.php:1040
+msgid "Contact Form"
+msgstr ""
+
+#: inc/customizer.php:1041
+msgid "You can add shortcode for contact form."
+msgstr ""
+
+#: inc/customizer.php:1064
+msgid "Contact Form Short Code"
+msgstr ""
+
+#: inc/customizer.php:1073
+msgid "Home Map"
+msgstr ""
+
+#: inc/customizer.php:1084
+msgid "Map Code"
+msgstr ""
+
+#: inc/customizer.php:1134
+msgid "Disable one page navigation"
+msgstr ""
+
+#: inc/theme-extras.php:40
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/theme-extras.php:67
+msgid "Post navigation"
+msgstr ""
+
+#: inc/theme-extras.php:71
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: inc/theme-extras.php:72
+msgctxt "Next post link"
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/theme-extras.php:83
+msgid "<i class=\"fa fa-angle-left\"></i> Previous"
+msgstr ""
+
+#: inc/theme-extras.php:85
+msgid "Next <i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/theme-extras.php:122
+msgid "Pingback:"
+msgstr ""
+
+#: inc/theme-extras.php:122
+msgid "(Edit)"
+msgstr ""
+
+#: inc/theme-extras.php:137
+msgid "Post author"
+msgstr ""
+
+#: inc/theme-extras.php:140 inc/theme-extras.php:216
+#, php-format
+msgid "%1$s @ %2$s"
+msgstr ""
+
+#: inc/theme-extras.php:143
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/theme-extras.php:149
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme-extras.php:158
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: inc/theme-extras.php:224
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/theme-extras.php:229 inc/theme-extras.php:265
+msgid " "
+msgstr ""
+
+#: inc/theme-extras.php:234
+msgid "Comment on "
+msgstr ""
+
+#: inc/theme-extras.php:235
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-extras.php:235
+msgid "No Comments"
+msgstr ""
+
+#: inc/theme-extras.php:239
+#, php-format
+msgid ""
+"<div class=\"header-meta\">%1$s%2$s<span class=\"post-categories\">%3$s</"
+"span>%4$s</div>"
+msgstr ""
+
+#: inc/theme-extras.php:270
+#, php-format
+msgid "<i class=\"fa fa-tag\"></i> %1$s"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: tag.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
