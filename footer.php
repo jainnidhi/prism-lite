@@ -50,7 +50,7 @@
         <?php if (get_theme_mod('prism_footer_footer_text') == '') { ?>
             <div class="smallprint">
                 <p>
-                    <?php esc_html_e('&copy; Copyright &middot; ','prism'); ?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
+                    <?php esc_html_e('&copy; Copyright &middot; ','prism'); ?> <a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
                 </p>
             </div>
         <?php } else { ?>   
