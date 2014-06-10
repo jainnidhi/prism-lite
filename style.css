@@ -596,6 +596,12 @@ select {
     margin:10px 0;
 }
 
+.header-contact p:before{
+    font-family:"FontAwesome";
+    content:"\f095";
+    margin-right:10px;
+}
+
 .header-contact .social-links{
     float:right;
     margin-top:5px;

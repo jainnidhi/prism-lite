@@ -161,13 +161,13 @@
                 
          wp.customize( 'home_two_link_url', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).attr('href', to );
+			$( '.home-featured-two .read-more' ).attr('href', to );
 		} );
 	} );
         
         wp.customize( 'home_two_link_text', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).text( to );
+			$( '.home-featured-two .read-more' ).text( to );
 		} );
 	} );
         wp.customize( 'home_featured_three', function( value ) {
@@ -178,25 +178,25 @@
         
         wp.customize( 'home_title_three', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured h3 a' ).text( to );
+			$( '.home-featured-three h3' ).text( to );
 		} );
 	} );
         
          wp.customize( 'home_description_three', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured p' ).text( to );
+			$( '.home-featured-three p' ).text( to );
 		} );
             } );
                 
          wp.customize( 'home_three_link_url', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).attr('href', to );
+			$( '.home-featured-three .read-more' ).attr('href', to );
 		} );
 	} );
         
         wp.customize( 'home_three_link_text', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).text( to );
+			$( '.home-featured-three .read-more' ).text( to );
 		} );
 	} );
          wp.customize( 'home_featured_four', function( value ) {
@@ -206,25 +206,25 @@
 	} );
         wp.customize( 'home_title_four', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured h3 a' ).text( to );
+			$( '.home-featured-four h3' ).text( to );
 		} );
 	} );
         
          wp.customize( 'home_description_four', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured p' ).text( to );
+			$( '.home-featured-four p' ).text( to );
 		} );
             } );
                 
          wp.customize( 'home_four_link_url', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).attr('href', to );
+			$( '.home-featured-four .read-more' ).attr('href', to );
 		} );
 	} );
         
         wp.customize( 'home_four_link_text', function( value ) {
 		value.bind( function( to ) {
-			$( '.home-featured .read-more' ).text( to );
+			$( '.home-featured-four .read-more' ).text( to );
 		} );
 	} );
         
