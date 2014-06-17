@@ -122,7 +122,6 @@ function prism_customize_register($wp_customize) {
     ));
     
     $wp_customize->add_setting('tracking_code', array('default' => '',
-            'sanitize_callback' => 'sanitize_text_field',
             'sanitize_js_callback' => 'prism_sanitize_escaping', 
             ));
         
@@ -1076,7 +1075,7 @@ function prism_customize_register($wp_customize) {
        
         
         $wp_customize->add_setting('contact_map', array('default' => '',
-            'sanitize_callback' => 'sanitize_text_field',
+            'sanitize_js_callback' => 'prism_sanitize_escaping',
             'transport'=> 'postMessage',
             ));
         

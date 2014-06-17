@@ -260,36 +260,45 @@ get_header();
         <div class="testimonial-slider">
             <div class="flexslider" id="reviewslider">
                 <ul class="slides">
-                    <li id="tslider1">  <?php if ( get_theme_mod('tslider_one') !='' ) {  ?>
-                        <img  src="<?php echo get_theme_mod('tslider_one'); ?>" alt=""/>
-                        <?php }  else {  ?>
+                    
+                     <?php if ( get_theme_mod('tslider_one') =='' ) {  ?>
+                        <li id="tslider1">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt=""/>
-                        <?php } ?>
-        
                         <div class="flex-caption">
-                             <?php if ( get_theme_mod('tslider_one_description') !='' ) {  ?>
-                                <?php echo esc_html(get_theme_mod('tslider_one_description')); ?>
-                                <?php } else { ?>
-                               <p><?php esc_html_e('IdeaBox Themes are super easy to setup and use. I love them. - John Doe.', 'prism') ?> </p>
-                                 <?php } ?>
-                         </div>
+                          <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
+                       </div>
                     </li>
                     
-                    <li id="tslider2">  <?php if ( get_theme_mod('tslider_two') !='' ) {  ?>
-                        <img  src="<?php echo get_theme_mod('tslider_two'); ?>" alt=""/>
-                        <?php }  else {  ?>
+                    <li id="tslider2">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.jpg" alt=""/>
-                        <?php } ?>
-        
                         <div class="flex-caption">
-                             <?php if ( get_theme_mod('tslider_two_description') !='' ) {  ?>
-                                <?php echo esc_html(get_theme_mod('tslider_two_description')); ?>
-                                <?php } else { ?>
-                               <p><?php esc_html_e('I have used IdeaBox Themes several times. They are the best! - Jena Doe', 'prism') ?> </p>
-                                 <?php } ?>
+                               <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>                  
                          </div>
                     </li>
+                   
+                    <?php } ?>
                     
+                      <?php if ( get_theme_mod('tslider_one') !='' ) {  ?>
+                    <li id="tslider1">
+                        <img  src="<?php echo get_theme_mod('tslider_one'); ?>" alt=""/>
+                        <?php if ( get_theme_mod('tslider_one_description') !='' ) {  ?>
+                        <div class="flex-caption">
+                                <?php echo wpautop(esc_html(get_theme_mod('tslider_one_description'))); ?>
+                         </div>
+                         <?php } ?>
+                    </li>
+                    
+                    <?php if ( get_theme_mod('tslider_two') !='' ) {  ?>
+                    <li id="tslider2">
+                        <img  src="<?php echo get_theme_mod('tslider_two'); ?>" alt=""/>
+                      <?php } ?>
+                         <?php if ( get_theme_mod('tslider_two_description') !='' ) {  ?>
+                        <div class="flex-caption">
+                                <?php echo wpautop(esc_html(get_theme_mod('tslider_two_description'))); ?>
+                         </div>
+                            <?php } ?>
+                    </li>
+                     <?php } ?>
                </ul>
             </div>
         </div>
@@ -349,7 +358,7 @@ get_header();
                     <div class="contact-map">
                         
                         <?php if ( get_theme_mod('contact_map') !='' ) {  ?> 
-                            <?php echo esc_html(get_theme_mod('contact_map')); ?>
+                            <?php echo get_theme_mod('contact_map'); ?>
                                <?php } else { ?>
                                 <img src="<?php echo get_template_directory_uri().'/assets/images/map.jpg'; ?>" alt="home-map-image"/>
                                  <?php } ?>
