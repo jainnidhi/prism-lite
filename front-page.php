@@ -284,7 +284,7 @@ get_header();
                     <?php if ( get_theme_mod('tslider_two') !='' ) {  ?>
                     <li id="tslider2">
                         <img  src="<?php echo get_theme_mod('tslider_two'); ?>" alt=""/>
-                      <?php } ?>
+                     
                          <?php if ( get_theme_mod('tslider_two_description') !='' ) {  ?>
                         <div class="flex-caption">
                                 <?php echo wpautop(esc_html(get_theme_mod('tslider_two_description'))); ?>
@@ -292,6 +292,7 @@ get_header();
                             <?php } ?>
                     </li>
                      <?php } ?>
+                <?php } ?>
                </ul>
             </div>
         </div>
