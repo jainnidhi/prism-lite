@@ -3100,6 +3100,20 @@ img#wpstats {
     .home-featured .home-featured-three{
         margin-left:0;
     }
+    
+    .slider-wrapper .flex-caption{
+        padding:0;
+        position:relative;
+        margin-bottom:0;
+    }
+    
+    #main-slider .slider-text-container{
+        width:100%;
+    }
+    
+    .flex-control-nav{
+        bottom:15px;
+    }
 }
 
 /*  Go full Width at less than 650px */
@@ -3234,10 +3248,6 @@ img#wpstats {
         margin:0;
     }
 
-    .slider-wrapper .flex-caption{
-        margin-bottom:10%;
-    }
-
     .flex-caption h2{
         font-size:20px;
     }
@@ -3345,6 +3355,26 @@ img#wpstats {
 
     .slick-nav a{
         padding:10px;
+    }
+    
+    .slider-wrapper .flex-caption{
+        display:none;
+    }
+    
+    .flex-control-nav{
+        bottom:10px;
+    }
+    
+    .header-title{
+        display:none;
+    }
+    
+    .site-header{
+        width:100%;
+    }
+    
+    .slicknav_menu{
+        margin:0;
     }
 
 }
