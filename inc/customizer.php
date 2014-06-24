@@ -1135,7 +1135,7 @@ function prism_customize_register($wp_customize) {
         'sanitize_callback' => 'prism_sanitize_checkbox',
     ));
     $wp_customize->add_control('prism_one_page_nav_check', array(
-        'label' => __('Disable one page navigation', 'prism'),
+        'label' => __('Enable one page navigation', 'prism'),
         'section' => 'prism_one_page_navigation',
         'priority' => 10,
         'type' => 'checkbox',

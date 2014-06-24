@@ -101,10 +101,8 @@ global $edd_options;
 
                         <div class="col grid_8_of_12 header-extras last"> 
                             <nav id="site-navigation" class="main-navigation" role="navigation">
-                                 <?php if(!is_front_page() || get_theme_mod('prism_one_page_nav_check')) {
-                                  wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'primary-menu', 'container_class' => 'menu')); 
-                                 }
-                                 else { ?>
+                                 <?php if(is_front_page() && get_theme_mod('prism_one_page_nav_check')) {
+                                  ?>
                                 <div id="home-top-nav" class="home-menu">
                                         <ul class="home-navigation">
                                             <li id="m1" class="page_item"><a class="scrollSmint" href="#main-slider" id="social-wrapper">Home</a></li>
@@ -123,7 +121,13 @@ global $edd_options;
                                                                                                     <?php } ?></a></li>
                                         </ul>
                                     </div>
-                                <?php } ?>
+                                <?php  }
+                                 else {
+                                     
+                                     wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'primary-menu', 'container_class' => 'menu')); 
+                                
+                                     
+                                 } ?>
                                 
                                 <div id="mobile-menu"></div>
                             </nav> <!-- /.site-navigation.main-navigation -->
