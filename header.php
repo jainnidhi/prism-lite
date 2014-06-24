@@ -101,7 +101,7 @@ global $edd_options;
 
                         <div class="col grid_8_of_12 header-extras last"> 
                             <nav id="site-navigation" class="main-navigation" role="navigation">
-                                 <?php if(!is_front_page() || get_theme_mod('prism_one_page_nav_check')) {
+                                 <?php if(is_front_page() && get_theme_mod('prism_one_page_nav_check')) {
                                   wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'primary-menu', 'container_class' => 'menu')); 
                                  }
                                  else { ?>
