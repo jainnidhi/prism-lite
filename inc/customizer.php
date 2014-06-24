@@ -17,7 +17,8 @@
  */
 function prism_customize_register($wp_customize) {
     
-     $wp_customize->get_section( 'header_image'  )->priority     = 33;
+     $wp_customize->get_section( 'header_image'  )->priority     = 27;
+     $wp_customize->get_section('nav')->priority = 29;
 
     /** ===============
      * Extends CONTROLS class to add textarea
@@ -69,7 +70,7 @@ function prism_customize_register($wp_customize) {
     // Add new section for theme layout and color schemes
     $wp_customize->add_section('prism_theme_layout_settings', array(
         'title' => __('Color Scheme', 'prism'),
-        'priority' => 30,
+        'priority' => 31,
     ));
 
     
@@ -98,7 +99,7 @@ function prism_customize_register($wp_customize) {
       // Add new section for custom favicon settings
     $wp_customize->add_section('prism_custom_favicon_setting', array(
         'title' => __('Custom Favicon', 'prism'),
-        'priority' => 31,
+        'priority' => 77,
     ));
     
     
@@ -118,7 +119,7 @@ function prism_customize_register($wp_customize) {
      // Add new section for custom favicon settings
     $wp_customize->add_section('prism_tracking_code_setting', array(
         'title' => __('Tracking Code', 'prism'),
-        'priority' => 32,
+        'priority' => 76,
     ));
     
     $wp_customize->add_setting('tracking_code', array('default' => '',
@@ -1123,6 +1124,10 @@ function prism_customize_register($wp_customize) {
         'settings' => 'prism_custom_css', 
     )));
     
+   $wp_customize->add_section('prism_one_page_navigation', array(
+        'title' => 'One Page Navigation', // The title of section
+        'priority' => 30,
+    ));
    
     // Disable one page navigation on front page.
     $wp_customize->add_setting('prism_one_page_nav_check', array(
@@ -1131,7 +1136,7 @@ function prism_customize_register($wp_customize) {
     ));
     $wp_customize->add_control('prism_one_page_nav_check', array(
         'label' => __('Disable one page navigation', 'prism'),
-        'section' => 'nav',
+        'section' => 'prism_one_page_navigation',
         'priority' => 10,
         'type' => 'checkbox',
     ));
