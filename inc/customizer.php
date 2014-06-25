@@ -18,6 +18,7 @@
 function prism_customize_register($wp_customize) {
     
      $wp_customize->get_section( 'header_image'  )->priority     = 27;
+     $wp_customize->get_section('static_front_page')->priority = 28;
      $wp_customize->get_section('nav')->priority = 29;
 
     /** ===============
@@ -944,7 +945,7 @@ function prism_customize_register($wp_customize) {
             // Add new section for Contact settings
     $wp_customize->add_section('contact_setting', array(
         'title' => __('Contact Details', 'prism'),
-        'priority' => 64,
+        'priority' => 66,
     ));
     
     
@@ -1003,7 +1004,7 @@ function prism_customize_register($wp_customize) {
         // Add new section for Home Contact Title settings
     $wp_customize->add_section('home_contact_title_setting', array(
         'title' => __('Home Contact Title', 'prism'),
-        'priority' => 63,
+        'priority' => 64,
     ));
     
     // section Title
@@ -1039,7 +1040,7 @@ function prism_customize_register($wp_customize) {
     $wp_customize->add_section('prism_contact_form_setting', array(
         'title' => __('Contact Form', 'prism'),
         'description' => __('You can add shortcode for contact form.', 'prism'),
-        'priority' => 64,
+        'priority' => 65,
     ));    
     
     $wp_customize->add_setting('contact_form_title', array(
@@ -1071,7 +1072,7 @@ function prism_customize_register($wp_customize) {
         // Add new section for Home Tagline settings
     $wp_customize->add_section('video_setting', array(
         'title' => __('Home Map', 'prism'),
-        'priority' => 65,
+        'priority' => 67,
     ));    
        
         
