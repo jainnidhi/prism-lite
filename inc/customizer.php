@@ -1243,6 +1243,6 @@ function prism_header_output() {
 add_action('wp_head', 'prism_header_output');
 
 function prism_footer_tracking_code() {
-    echo esc_attr(get_theme_mod('tracking_code'));
+    echo get_theme_mod('tracking_code');
 }
 add_action('wp_footer','prism_footer_tracking_code'); 
