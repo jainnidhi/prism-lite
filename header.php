@@ -1,10 +1,8 @@
 <?php
-global $edd_options;
-
 /**
  * The Header for our theme.
  *
- * Displays all of the <head> section and everything up till <div id="maincontentcontainer">
+ * Displays all of the <head> section and everything up till <div id="headercontainer">
  *
  * @package Prism
  * @since Prism 1.0
