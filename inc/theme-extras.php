@@ -413,10 +413,6 @@ function prism_woocommerce_image_dimensions() {
 }
 
 
-function woocommerce_output_related_products() {
-woocommerce_related_products(4,4); // Display 4 products in rows of 3
-}
-
 //Remove the upsell display so that woo doesn't show upsell items on the single page and we can use our combo display
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
 

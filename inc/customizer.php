@@ -17,7 +17,9 @@
  */
 function prism_customize_register($wp_customize) {
     
-     $wp_customize->get_section( 'header_image'  )->priority     = 33;
+     $wp_customize->get_section( 'header_image'  )->priority     = 27;
+     $wp_customize->get_section('static_front_page')->priority = 28;
+     $wp_customize->get_section('nav')->priority = 29;
 
     /** ===============
      * Extends CONTROLS class to add textarea
@@ -69,7 +71,7 @@ function prism_customize_register($wp_customize) {
     // Add new section for theme layout and color schemes
     $wp_customize->add_section('prism_theme_layout_settings', array(
         'title' => __('Color Scheme', 'prism'),
-        'priority' => 30,
+        'priority' => 31,
     ));
 
     
@@ -98,7 +100,7 @@ function prism_customize_register($wp_customize) {
       // Add new section for custom favicon settings
     $wp_customize->add_section('prism_custom_favicon_setting', array(
         'title' => __('Custom Favicon', 'prism'),
-        'priority' => 31,
+        'priority' => 77,
     ));
     
     
@@ -118,11 +120,10 @@ function prism_customize_register($wp_customize) {
      // Add new section for custom favicon settings
     $wp_customize->add_section('prism_tracking_code_setting', array(
         'title' => __('Tracking Code', 'prism'),
-        'priority' => 32,
+        'priority' => 76,
     ));
     
     $wp_customize->add_setting('tracking_code', array('default' => '',
-            'sanitize_callback' => 'sanitize_text_field',
             'sanitize_js_callback' => 'prism_sanitize_escaping', 
             ));
         
@@ -944,7 +945,7 @@ function prism_customize_register($wp_customize) {
             // Add new section for Contact settings
     $wp_customize->add_section('contact_setting', array(
         'title' => __('Contact Details', 'prism'),
-        'priority' => 64,
+        'priority' => 66,
     ));
     
     
@@ -1003,7 +1004,7 @@ function prism_customize_register($wp_customize) {
         // Add new section for Home Contact Title settings
     $wp_customize->add_section('home_contact_title_setting', array(
         'title' => __('Home Contact Title', 'prism'),
-        'priority' => 63,
+        'priority' => 64,
     ));
     
     // section Title
@@ -1039,7 +1040,7 @@ function prism_customize_register($wp_customize) {
     $wp_customize->add_section('prism_contact_form_setting', array(
         'title' => __('Contact Form', 'prism'),
         'description' => __('You can add shortcode for contact form.', 'prism'),
-        'priority' => 64,
+        'priority' => 65,
     ));    
     
     $wp_customize->add_setting('contact_form_title', array(
@@ -1071,12 +1072,12 @@ function prism_customize_register($wp_customize) {
         // Add new section for Home Tagline settings
     $wp_customize->add_section('video_setting', array(
         'title' => __('Home Map', 'prism'),
-        'priority' => 65,
+        'priority' => 67,
     ));    
        
         
         $wp_customize->add_setting('contact_map', array('default' => '',
-            'sanitize_callback' => 'sanitize_text_field',
+            'sanitize_js_callback' => 'prism_sanitize_escaping',
             'transport'=> 'postMessage',
             ));
         
@@ -1124,6 +1125,10 @@ function prism_customize_register($wp_customize) {
         'settings' => 'prism_custom_css', 
     )));
     
+   $wp_customize->add_section('prism_one_page_navigation', array(
+        'title' => 'One Page Navigation', // The title of section
+        'priority' => 30,
+    ));
    
     // Disable one page navigation on front page.
     $wp_customize->add_setting('prism_one_page_nav_check', array(
@@ -1131,8 +1136,8 @@ function prism_customize_register($wp_customize) {
         'sanitize_callback' => 'prism_sanitize_checkbox',
     ));
     $wp_customize->add_control('prism_one_page_nav_check', array(
-        'label' => __('Disable one page navigation', 'prism'),
-        'section' => 'nav',
+        'label' => __('Enable one page navigation', 'prism'),
+        'section' => 'prism_one_page_navigation',
         'priority' => 10,
         'type' => 'checkbox',
     ));

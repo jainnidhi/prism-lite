@@ -4,7 +4,7 @@ Author URI: http://ideaboxthemes.com
 Tags: black, gray, blue, orange, red, pink, purple, brown, green, dark, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 3.6
 Tested up to: 3.8
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,3 +128,7 @@ Slider Image 2: slider2.jpg (http://unsplash.com/post/85385371509/download-by-dr
 
 = 1.0 =
 - Initial version
+
+= 1.0.1 =
+- Modified code for home map
+- updated code for testimonial slider
