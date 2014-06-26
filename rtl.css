@@ -87,10 +87,10 @@ td {
 .menu-toggle,
 .btn,
 input[type="submit"] {
-   
+
     *margin-right: .3em;
     *margin-left:auto;
-    
+
 }
 
 .btn:first-child {
@@ -508,12 +508,12 @@ form label.error {
 
 @media only screen and (max-width: 800px) {
 
-   
+
     header .grid_7_of_12 {
         margin-right: 0;
         margin-left:auto;
     }
-    
+
     .main-navigation .nav-menu > li:first-child {
         margin-right: 0;
         margin-left:auto;
@@ -524,7 +524,7 @@ form label.error {
     .social-media-icons li {
         margin: 0.1em 0 0 0.5em;
     }
-    
+
     .home-sidebar .col:nth-of-type(2n+1){
         margin-right:0px;
         margin-left:auto;
@@ -536,23 +536,23 @@ form label.error {
         margin-right:0;
         margin-left:auto;
     }
-    
+
 }
 
 /*  Go full Width at less than 650px */
 @media only screen and (max-width: 650px) {
-   
+
     .main-small-navigation .nav-menu ul {
         padding-right: 16px;
     }
-    
+
     .home-featured-post .featured-post-content,
     #featured-posts .wp-post-image{
         margin-left:0;
         margin-right:auto;
     }
 
-   
+
     .full-width.page-template-page-templatesedd-store-php .main-content{
         padding-right:0;
     }
@@ -563,18 +563,18 @@ form label.error {
         right:auto;
     }
 
-   
+
 }
 
 
 /*  Adjust the menu at less than 520px */
 @media only screen and (max-width: 520px) {
-   
+
     .main-navigation ul ul li ul {
         right: 0;
         left:auto;
     }
-    
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -592,3 +592,11 @@ form label.error {
 
 /* For image replacement */
 .ir { text-align: right;}
+
+/* FlexSlider RTL Support */
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
