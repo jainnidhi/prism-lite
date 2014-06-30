@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Prism - One Page Theme\n"
-"POT-Creation-Date: 2014-05-25 17:00+0530\n"
-"PO-Revision-Date: 2014-05-25 17:01+0530\n"
+"Project-Id-Version: Prism\n"
+"POT-Creation-Date: 2014-07-01 00:19+0530\n"
+"PO-Revision-Date: 2014-07-01 00:19+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -71,34 +71,36 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: content-aside.php:16 content-audio.php:24 content-chat.php:16
-#: content-gallery.php:23 content-image.php:16 content-link.php:16
-#: content-quote.php:17 content-status.php:16 content-video.php:23
-#: content.php:36 functions.php:271
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: content-aside.php:21 content-audio.php:29 content-chat.php:21
-#: content-gallery.php:28 content-image.php:21 content-link.php:21
-#: content-postarchives.php:33 content-quote.php:24 content-status.php:20
-#: content-video.php:28 content.php:40
-msgid "Pages:"
-msgstr ""
-
-#: content-aside.php:33 content-audio.php:42 content-chat.php:33
-#: content-gallery.php:40 content-image.php:33 content-link.php:33
-#: content-postarchives.php:36 content-quote.php:36 content-status.php:32
-#: content-video.php:40 content.php:53 inc/theme-extras.php:154
-msgid "Edit"
-msgstr ""
-
-#: content-audio.php:17 content-gallery.php:17 content-video.php:17
+#: content-aside.php:17 content-audio.php:17 content-chat.php:17
+#: content-gallery.php:17 content-image.php:17 content-link.php:17
+#: content-quote.php:17 content-status.php:17 content-video.php:17
 #: content.php:18 content.php:23
 #, php-format
 msgid "Permalink to %s"
 msgstr ""
 
-#: content-frontposts.php:31 header.php:115
+#: content-aside.php:23 content-audio.php:24 content-chat.php:23
+#: content-gallery.php:23 content-image.php:23 content-link.php:23
+#: content-quote.php:24 content-status.php:23 content-video.php:23
+#: content.php:36 functions.php:271
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:28 content-audio.php:29 content-chat.php:28
+#: content-gallery.php:28 content-image.php:28 content-link.php:28
+#: content-postarchives.php:33 content-quote.php:31 content-status.php:27
+#: content-video.php:28 content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content-aside.php:40 content-audio.php:42 content-chat.php:40
+#: content-gallery.php:40 content-image.php:40 content-link.php:40
+#: content-postarchives.php:36 content-quote.php:43 content-status.php:39
+#: content-video.php:40 content.php:53 inc/theme-extras.php:154
+msgid "Edit"
+msgstr ""
+
+#: content-frontposts.php:31 header.php:111
 msgid "Recent Blogs"
 msgstr ""
 
@@ -145,11 +147,11 @@ msgid ""
 "Pro version gives you access to dedicated support & feature rich upgrades."
 msgstr ""
 
-#: front-page.php:101
+#: front-page.php:94
 msgid "Premium WP Theme with 1-click installation and Live Customization."
 msgstr ""
 
-#: front-page.php:107
+#: front-page.php:100
 msgid ""
 "Setting up your WP website with a brand new theme was never so easy.\n"
 "                              With Prism, it takes only few clicks to load "
@@ -158,86 +160,82 @@ msgid ""
 "personalize the theme."
 msgstr ""
 
-#: front-page.php:118 header.php:112
+#: front-page.php:111 header.php:108
 msgid "Theme Features"
 msgstr ""
 
-#: front-page.php:133
+#: front-page.php:126
 msgid "Responsive Design"
 msgstr ""
 
-#: front-page.php:139
+#: front-page.php:132
 msgid ""
 "Your site looks beautiful on all kind of devices and screen sizes. Mobile "
 "responsive navigation makes it easy to access the site on mobile devices."
 msgstr ""
 
-#: front-page.php:145 front-page.php:170 front-page.php:196 front-page.php:221
+#: front-page.php:138 front-page.php:163 front-page.php:189 front-page.php:214
 msgid "Read More"
 msgstr ""
 
-#: front-page.php:158
+#: front-page.php:151
 msgid "1-Click Installation"
 msgstr ""
 
-#: front-page.php:164
+#: front-page.php:157
 msgid ""
 "Install, activate the theme and you are ready with a brand new website. It "
 "gets loaded with sample content that you can easily modify."
 msgstr ""
 
-#: front-page.php:184
+#: front-page.php:177
 msgid "Live Customization"
 msgstr ""
 
-#: front-page.php:190
+#: front-page.php:183
 msgid ""
 "Live preview your site as you add the content to various sections. Theme "
 "customizer allows you the flexibility and ease of use."
 msgstr ""
 
-#: front-page.php:209
+#: front-page.php:202
 msgid "Color Schemes"
 msgstr ""
 
-#: front-page.php:215
+#: front-page.php:208
 msgid ""
 "Multiple color schemes are pre-packaged to fit all your requirements. "
 "Upgrade to pro version for more exciting features. "
 msgstr ""
 
-#: front-page.php:238
+#: front-page.php:231
 msgid "Checkout the complete collection on our website."
 msgstr ""
 
-#: front-page.php:245
+#: front-page.php:238
 msgid "Buy Now"
 msgstr ""
 
-#: front-page.php:255
+#: front-page.php:248
 msgid "Testimonials"
 msgstr ""
 
-#: front-page.php:273
+#: front-page.php:261 front-page.php:268
 msgid ""
-"IdeaBox Themes are super easy to setup and use. I love them. - John Doe."
+"Showcase your multiple services and let users understand about your business."
 msgstr ""
 
-#: front-page.php:288
-msgid "I have used IdeaBox Themes several times. They are the best! - Jena Doe"
-msgstr ""
-
-#: front-page.php:301 front-page.php:311 front-page.php:326 header.php:122
+#: front-page.php:304 front-page.php:314 front-page.php:329 header.php:118
 msgid "Contact"
 msgstr ""
 
-#: front-page.php:317
+#: front-page.php:320
 msgid ""
 "You can add a contact form here using your favorite plugin. Simply add the "
 "shortcode for the form from Theme Customizer and it will be displayed here."
 msgstr ""
 
-#: front-page.php:332
+#: front-page.php:335
 msgid ""
 "205, Gitanjali Mansion,\n"
 "                                                          Above ICICI Bank, "
@@ -246,11 +244,11 @@ msgid ""
 "Rajasthan, India."
 msgstr ""
 
-#: front-page.php:339
+#: front-page.php:342
 msgid "hello@ideaboxcreations.com"
 msgstr ""
 
-#: front-page.php:344
+#: front-page.php:347
 msgid "0294-678456"
 msgstr ""
 
@@ -292,239 +290,239 @@ msgstr ""
 msgid "Continue reading"
 msgstr ""
 
-#: header.php:48
+#: header.php:46
 msgid "Skip to main content"
 msgstr ""
 
-#: header.php:55
+#: header.php:53
 msgid "Call us 24x7: 800-555-0101"
 msgstr ""
 
-#: header.php:118
+#: header.php:114
 msgid "Client Feedbacks"
 msgstr ""
 
-#: inc/customizer.php:53
+#: inc/customizer.php:55
 msgid "Select"
 msgstr ""
 
-#: inc/customizer.php:71
+#: inc/customizer.php:73
 msgid "Color Scheme"
 msgstr ""
 
-#: inc/customizer.php:89
+#: inc/customizer.php:91
 msgid "Blue"
 msgstr ""
 
-#: inc/customizer.php:90
+#: inc/customizer.php:92
 msgid "Red"
 msgstr ""
 
-#: inc/customizer.php:91
+#: inc/customizer.php:93
 msgid "Green"
 msgstr ""
 
-#: inc/customizer.php:92
+#: inc/customizer.php:94
 msgid "Purple"
 msgstr ""
 
-#: inc/customizer.php:100
+#: inc/customizer.php:102
 msgid "Custom Favicon"
 msgstr ""
 
-#: inc/customizer.php:120 inc/customizer.php:130
+#: inc/customizer.php:122 inc/customizer.php:131
 msgid "Tracking Code"
 msgstr ""
 
-#: inc/customizer.php:138
+#: inc/customizer.php:139
 msgid "Header Contact"
 msgstr ""
 
-#: inc/customizer.php:148
+#: inc/customizer.php:149
 msgid "Contact Detail"
 msgstr ""
 
-#: inc/customizer.php:158
+#: inc/customizer.php:159
 msgid "Social Icons"
 msgstr ""
 
-#: inc/customizer.php:169
+#: inc/customizer.php:170
 msgid "Facebook URL"
 msgstr ""
 
-#: inc/customizer.php:183
+#: inc/customizer.php:184
 msgid "Twitter URL"
 msgstr ""
 
-#: inc/customizer.php:197
+#: inc/customizer.php:198
 msgid "Google Plus URL"
 msgstr ""
 
-#: inc/customizer.php:211
+#: inc/customizer.php:212
 msgid "Pinterest URL"
 msgstr ""
 
-#: inc/customizer.php:225
+#: inc/customizer.php:226
 msgid "Github URL"
 msgstr ""
 
-#: inc/customizer.php:239
+#: inc/customizer.php:240
 msgid "Youtube URL"
 msgstr ""
 
-#: inc/customizer.php:248
+#: inc/customizer.php:249
 msgid "Home Slider"
 msgstr ""
 
-#: inc/customizer.php:275
+#: inc/customizer.php:276
 msgid "Slider One Title"
 msgstr ""
 
-#: inc/customizer.php:288
+#: inc/customizer.php:289
 msgid "Slider One URL"
 msgstr ""
 
-#: inc/customizer.php:301 inc/customizer.php:356 inc/customizer.php:389
-#: inc/customizer.php:472 inc/customizer.php:548 inc/customizer.php:626
-#: inc/customizer.php:703 inc/customizer.php:908 inc/customizer.php:937
+#: inc/customizer.php:302 inc/customizer.php:357 inc/customizer.php:390
+#: inc/customizer.php:473 inc/customizer.php:549 inc/customizer.php:627
+#: inc/customizer.php:704 inc/customizer.php:909 inc/customizer.php:938
 msgid "Description"
 msgstr ""
 
-#: inc/customizer.php:330
+#: inc/customizer.php:331
 msgid "Slider Two Title"
 msgstr ""
 
-#: inc/customizer.php:343
+#: inc/customizer.php:344
 msgid "Slider Two URL"
 msgstr ""
 
-#: inc/customizer.php:365
+#: inc/customizer.php:366
 msgid "Home Tagline"
 msgstr ""
 
-#: inc/customizer.php:377
+#: inc/customizer.php:378
 msgid "Tagline"
 msgstr ""
 
-#: inc/customizer.php:398
+#: inc/customizer.php:399
 msgid "Home Featured Title"
 msgstr ""
 
-#: inc/customizer.php:409 inc/customizer.php:753 inc/customizer.php:857
-#: inc/customizer.php:1016
+#: inc/customizer.php:410 inc/customizer.php:754 inc/customizer.php:858
+#: inc/customizer.php:1017
 msgid "Section Title"
 msgstr ""
 
-#: inc/customizer.php:423 inc/customizer.php:767 inc/customizer.php:871
-#: inc/customizer.php:1030
+#: inc/customizer.php:424 inc/customizer.php:768 inc/customizer.php:872
+#: inc/customizer.php:1031
 msgid "Menu Title"
 msgstr ""
 
-#: inc/customizer.php:432
+#: inc/customizer.php:433
 msgid "Home Featured #1"
 msgstr ""
 
-#: inc/customizer.php:459 inc/customizer.php:535 inc/customizer.php:613
-#: inc/customizer.php:690 inc/customizer.php:958 inc/customizer.php:1051
+#: inc/customizer.php:460 inc/customizer.php:536 inc/customizer.php:614
+#: inc/customizer.php:691 inc/customizer.php:959 inc/customizer.php:1052
 msgid "Title"
 msgstr ""
 
-#: inc/customizer.php:485 inc/customizer.php:561 inc/customizer.php:639
-#: inc/customizer.php:716 inc/customizer.php:823
+#: inc/customizer.php:486 inc/customizer.php:562 inc/customizer.php:640
+#: inc/customizer.php:717 inc/customizer.php:824
 msgid "Link Text"
 msgstr ""
 
-#: inc/customizer.php:499 inc/customizer.php:575 inc/customizer.php:653
-#: inc/customizer.php:730 inc/customizer.php:837
+#: inc/customizer.php:500 inc/customizer.php:576 inc/customizer.php:654
+#: inc/customizer.php:731 inc/customizer.php:838
 msgid "Link URL"
 msgstr ""
 
-#: inc/customizer.php:508
+#: inc/customizer.php:509
 msgid "Home Featured #2"
 msgstr ""
 
-#: inc/customizer.php:586
+#: inc/customizer.php:587
 msgid "Home Featured #3"
 msgstr ""
 
-#: inc/customizer.php:663
+#: inc/customizer.php:664
 msgid "Home Featured #4"
 msgstr ""
 
-#: inc/customizer.php:742
+#: inc/customizer.php:743
 msgid "Featured Posts"
 msgstr ""
 
-#: inc/customizer.php:743
+#: inc/customizer.php:744
 msgid "Settings for displaying featured posts on Front Page"
 msgstr ""
 
-#: inc/customizer.php:779
+#: inc/customizer.php:780
 msgid "Show featured posts on Front Page"
 msgstr ""
 
-#: inc/customizer.php:789
+#: inc/customizer.php:790
 msgid "Post Category"
 msgstr ""
 
-#: inc/customizer.php:799
+#: inc/customizer.php:800
 msgid "Home CTA"
 msgstr ""
 
-#: inc/customizer.php:809
+#: inc/customizer.php:810
 msgid "CTA Text"
 msgstr ""
 
-#: inc/customizer.php:846
+#: inc/customizer.php:847
 msgid "Testimonial Title"
 msgstr ""
 
-#: inc/customizer.php:881
+#: inc/customizer.php:882
 msgid "Testimonial Slider"
 msgstr ""
 
-#: inc/customizer.php:946
+#: inc/customizer.php:947
 msgid "Contact Details"
 msgstr ""
 
-#: inc/customizer.php:971
+#: inc/customizer.php:972
 msgid "Email"
 msgstr ""
 
-#: inc/customizer.php:984
+#: inc/customizer.php:985
 msgid "Phone"
 msgstr ""
 
-#: inc/customizer.php:997
+#: inc/customizer.php:998
 msgid "Address"
 msgstr ""
 
-#: inc/customizer.php:1005
+#: inc/customizer.php:1006
 msgid "Home Contact Title"
 msgstr ""
 
-#: inc/customizer.php:1040
+#: inc/customizer.php:1041
 msgid "Contact Form"
 msgstr ""
 
-#: inc/customizer.php:1041
+#: inc/customizer.php:1042
 msgid "You can add shortcode for contact form."
 msgstr ""
 
-#: inc/customizer.php:1064
+#: inc/customizer.php:1065
 msgid "Contact Form Short Code"
 msgstr ""
 
-#: inc/customizer.php:1073
+#: inc/customizer.php:1074
 msgid "Home Map"
 msgstr ""
 
-#: inc/customizer.php:1084
+#: inc/customizer.php:1085
 msgid "Map Code"
 msgstr ""
 
-#: inc/customizer.php:1134
-msgid "Disable one page navigation"
+#: inc/customizer.php:1139
+msgid "Enable one page navigation"
 msgstr ""
 
 #: inc/theme-extras.php:40
