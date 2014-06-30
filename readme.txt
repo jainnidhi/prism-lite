@@ -3,8 +3,8 @@ Contributors: Puneet Sahalot, Nidhi Jain
 Author URI: http://ideaboxthemes.com
 Tags: black, gray, blue, orange, red, pink, purple, brown, green, dark, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 3.6
-Tested up to: 3.8
-Stable tag: 1.0.1
+Tested up to: 3.9
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,6 +118,9 @@ Prism utilises the following awesomeness:
 [SMINT] (http://www.outyear.co.uk/smint/), for one page navigation, licensed under MIT Creative Commons License http://opensource.org/licenses/mit-license.php
 [Slicknav] (https://github.com/ComputerWolf/SlickNav) , mobile responsive navigation, licensed under MIT License
 
+Prism uses the following images licensed under Creative Commons public domain deed CC0
+http://creativecommons.org/publicdomain/zero/1.0/
+
 Feature Image 1: img1.jpg (http://pixabay.com/en/beach-beverage-caribbean-cocktail-84533/)
 Feature Image 2: img2.jpg (http://pixabay.com/en/keyboard-apple-input-keys-hardware-338513/)
 Feature Image 3: img3.jpg (http://pixabay.com/en/fall-autumn-tree-leaves-348316/)
@@ -132,3 +135,6 @@ Slider Image 2: slider2.jpg (http://unsplash.com/post/85385371509/download-by-dr
 = 1.0.1 =
 - Modified code for home map
 - updated code for testimonial slider
+
+= 1.0.3 = 
+- Added image license details
