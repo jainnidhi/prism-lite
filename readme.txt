@@ -121,13 +121,17 @@ Prism utilises the following awesomeness:
 Prism uses the following images licensed under Creative Commons public domain deed CC0
 http://creativecommons.org/publicdomain/zero/1.0/
 
-Feature Image 1: img1.jpg (http://pixabay.com/en/beach-beverage-caribbean-cocktail-84533/)
-Feature Image 2: img2.jpg (http://pixabay.com/en/keyboard-apple-input-keys-hardware-338513/)
-Feature Image 3: img3.jpg (http://pixabay.com/en/fall-autumn-tree-leaves-348316/)
-Feature Image 4: img4.jpg (http://pixabay.com/en/hot-air-balloon-balloon-colorful-4761/)
+Feature Image 1: img4.jpg (http://unsplash.com/post/55904505955/download-by-art-wave-web-design)
+Feature Image 2: img7.jpg (http://unsplash.com/post/51495156548/download-by-alejandro-escamilla)
+Feature Image 3: img8.jpg (http://unsplash.com/post/55049090101/download-kitsune-espresso-bar)
+Feature Image 4: img9.jpg (http://unsplash.com/post/52551356983/download-by-paul-jarvis)
 
 Slider Image 1: slider1.jpg (http://unsplash.com/post/51495156548/download-by-alejandro-escamilla)
 Slider Image 2: slider2.jpg (http://unsplash.com/post/85385371509/download-by-drew-patrick-miller)
+
+Testimonial Image 1: testimonial1.jpg (http://pixabay.com/en/keyboard-apple-input-keys-hardware-338513/)
+Testimonial Image 2: testimonial2.jpg (http://pixabay.com/en/fall-autumn-tree-leaves-348316/)
+Testimonial Image 3: testimonial3.jpg (http://pixabay.com/en/hot-air-balloon-balloon-colorful-4761/)
 
 = 1.0 =
 - Initial version
