@@ -4,9 +4,22 @@ Author URI: http://ideaboxthemes.com
 Tags: black, gray, blue, orange, red, pink, purple, brown, green, dark, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 3.6
 Tested up to: 3.9
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Prism WordPress Theme, Copyright (C) 2014 IdeaBox Themes
+Prism is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
 Prism is a beautiful, easy to use, mobile responsive, one page, multipurpose theme. You can either use it as a one page theme or a standard theme. It comes with unique one click installation and live customization features which makes it easy to use and setup for all kind of users. Multiple color schemes and beautiful typography make it a perfect fit for all kind of websites. And lastly, it has complete support for WooCommerce. 
 
@@ -104,13 +117,24 @@ This program is free software; you can redistribute it and/or modify it under th
 Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 
-== Credits ==
+== License ==
+
+Prism WordPress Theme is derived from Underscores WordPress Theme, Copyright 2013 Automattic, Inc.
+Prism WordPress Theme is distributed under the terms of the GNU GPL
 
 Prism utilises the following awesomeness:
 
-[Modernizr](http://modernizr.com), which is licensed under the MIT license
-[Normalize.css](https://github.com/necolas/normalize.css), which is licensed under the MIT license
-[jQuery Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation) which is dual licensed under the MIT license and GPL licenses
+Modernizr is licensed under the MIT license
+Source: http://modernizr.com
+
+Normalize.css Copyright Nicolas Gallagher 
+Normalize.css is licensed under the MIT license
+Source: https://github.com/necolas/normalize.css
+
+jQuery Validation Copyright 2013 Jorn Zaefferer 
+jQuery Validation is licensed under the MIT license
+Source: http://bassistance.de/jquery-plugins/jquery-plugin-validation
+
 [Font Awesome](http://fortawesome.github.io/Font-Awesome) icon font, which is licensed under SIL Open Font License and MIT License
 [Open Sans font](http://www.google.com/fonts/specimen/Open+Sans), which is licensed under SIL Open Font License 1.1
 [Montserrat font](http://www.google.com/fonts/specimen/Montserrat), which is licensed under SIL Open Font License 1.1
@@ -118,6 +142,8 @@ Prism utilises the following awesomeness:
 [SMINT] (http://www.outyear.co.uk/smint/), for one page navigation, licensed under MIT Creative Commons License http://opensource.org/licenses/mit-license.php
 [Slicknav] (https://github.com/ComputerWolf/SlickNav) , mobile responsive navigation, licensed under MIT License
 
+
+== Credits ==
 Prism uses the following images licensed under Creative Commons public domain deed CC0
 http://creativecommons.org/publicdomain/zero/1.0/
 
