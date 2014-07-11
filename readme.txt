@@ -135,13 +135,29 @@ jQuery Validation Copyright 2013 Jorn Zaefferer
 jQuery Validation is licensed under the MIT license
 Source: http://bassistance.de/jquery-plugins/jquery-plugin-validation
 
-[Font Awesome](http://fortawesome.github.io/Font-Awesome) icon font, which is licensed under SIL Open Font License and MIT License
-[Open Sans font](http://www.google.com/fonts/specimen/Open+Sans), which is licensed under SIL Open Font License 1.1
-[Montserrat font](http://www.google.com/fonts/specimen/Montserrat), which is licensed under SIL Open Font License 1.1
-[Flexslider] (https://github.com/woothemes/FlexSlider), by WooThemes, licensed under GPLv2 
-[SMINT] (http://www.outyear.co.uk/smint/), for one page navigation, licensed under MIT Creative Commons License http://opensource.org/licenses/mit-license.php
-[Slicknav] (https://github.com/ComputerWolf/SlickNav) , mobile responsive navigation, licensed under MIT License
+Font Awesome Copyright Dave Gandy
+Font Awesome is licensed under the MIT license
+source: http://fortawesome.github.io/Font-Awesome
 
+Open Sans font Copyright Steve Metteson
+Open Sans font is licensed under Apache License 2.0
+source: http://www.google.com/fonts/specimen/Open+Sans
+
+Montserrat font Copyright Julieta Ulanovsky
+Montserrat font is licensed under SIL Open Font License 1.1
+source: http://www.google.com/fonts/specimen/Montserrat
+
+Flexslider Copyright 2012 WooThemes
+Flexslider by WooThemes, licensed under GPLv2 
+source: https://github.com/woothemes/FlexSlider by WooThemes, licensed under GPLv2 
+
+SMINT Copyright Robert McCracken
+SMINT islicensed under MIT Creative Commons License http://opensource.org/licenses/mit-license.php
+source: http://www.outyear.co.uk/smint/ 
+
+Slicknav Copyright 2014 Josh Cope
+Slicknav is licensed under MIT License
+source: https://github.com/ComputerWolf/SlickNav
 
 == Credits ==
 Prism uses the following images licensed under Creative Commons public domain deed CC0
