@@ -1947,7 +1947,8 @@ div.gform_wrapper .ginput_complex label {
 }
 
 .footer-extras p{
-    margin:20px 0;
+    padding:20px 0;
+    margin-bottom: 0;
 }
 
 .footer-extras a{
