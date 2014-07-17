@@ -28,7 +28,7 @@ get_header();
             
             if ( get_theme_mod('slider_one') =='' ) {  ?>
                 <li>
-                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slider1.jpg" alt=""/>
+                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slider1.jpg" alt="slider-image"/>
                 <div class="flex-caption">
                     <div class="slider-text-container">
                      <h2 class="slider-title"><a href="#"><?php esc_html_e('Upgrade to Pro version!', 'prism') ?></a></h2>
@@ -38,7 +38,7 @@ get_header();
                 </li>
                 
                 <li>
-                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slider2.jpg" alt=""/>
+                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slider2.jpg" alt="slider-image"/>
                 <div class="flex-caption">
                     <div class="slider-text-container">
                      <h2 class="slider-title"><a href="#"><?php esc_html_e('Dedicated support & upgrades', 'prism') ?></a></h2>
@@ -118,7 +118,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_one') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_one'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.jpg" /></div>
                      <?php } ?>
 
 
@@ -143,7 +143,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_two') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_two'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img7.jpg" /></div>
                      <?php } ?>
 
 
@@ -169,7 +169,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_three') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_three'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img3.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img8.jpg" /></div>
                      <?php } ?>
 
 
@@ -194,7 +194,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_four') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_four'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img9.jpg" /></div>
                      <?php } ?>
 
 
@@ -256,14 +256,14 @@ get_header();
                     
                      <?php if ( get_theme_mod('tslider_one') =='' ) {  ?>
                         <li id="tslider1">
-                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt=""/>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial1.jpg" alt=""/>
                         <div class="flex-caption">
                           <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>
                        </div>
                     </li>
                     
                     <li id="tslider2">
-                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.jpg" alt=""/>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial2.jpg" alt=""/>
                         <div class="flex-caption">
                                <p><?php esc_html_e('Showcase your multiple services and let users understand about your business.', 'prism') ?> </p>                  
                          </div>

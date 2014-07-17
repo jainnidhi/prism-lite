@@ -58,7 +58,7 @@
         <?php } ?> 
                     <div class="footer-extras">
                          <p>
-                   <a href="<?php $prsim_theme = wp_get_theme(); echo $prism_theme->get( 'AuthorURI' ); ?>">
+                   <a href="<?php $prism_theme = wp_get_theme(); echo $prism_theme->get( 'AuthorURI' ); ?>">
                             <?php _e('Prism WordPress theme by IdeaBox','prism'); ?>
                     </a>
                 </p>
