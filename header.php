@@ -8,44 +8,25 @@
  * @since Prism 1.0
  */
 ?>
-<!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
-    <!DOCTYPE html>
-    <!--[if IE 7]>
-    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>>
-    <![endif]-->
-    <!--[if IE 8]>
-    <html class="no-js lt-ie9" <?php language_attributes(); ?>>
-    <![endif]-->
-    <!--[if !(IE 7) | !(IE 8)  ]><!-->
-    <html <?php language_attributes(); ?>>
-        <!--<![endif]-->
-        <head>
-            <meta charset="<?php bloginfo('charset'); ?>" />
-            <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-            <title><?php wp_title('|', true, 'right'); ?></title>
-            <meta http-equiv="cleartype" content="on">
-
-            <!-- Responsive and mobile friendly stuff -->
-            <meta name="HandheldFriendly" content="True">
-            <meta name="MobileOptimized" content="320">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-
-            <link rel="profile" href="http://gmpg.org/xfn/11" />
-            <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
-
-            <?php wp_head(); ?>
-            
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
             <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
             <!--[if lt IE 9]>
               <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
               <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
             <![endif]-->
             
-        </head>
-
+        <title><?php wp_title( '|', true, 'right' ); ?></title>
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <?php wp_head(); ?>
+    </head>
+    
         <body <?php body_class(); ?>>
 
             <div id="wrapper" class="hfeed site">
